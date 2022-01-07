@@ -2,7 +2,7 @@
 
 Animations on the SVGs with animejs. Inspired by the [Topography Animation]
 
-[Topography Animation]()
+[Topography Animation](https://github.com/evolvan/typography-animation/blob/master/images/evolvan-tool.PNG)
 
 [Article on Github](https://github.com/evolvan/typography-animation/blob/master/README.md)
 
@@ -19,7 +19,7 @@ This resource can be used freely if integrated or build upon in personal or comm
 
 ## Misc
 
-Follow Evolvan: [Twitter](https://twitter.com/evolvan), [Facebook](https://www.facebook.com/evolvan/), [Linkedin](https://in.linkedin.com/company/evolvan), [GitHub](https://github.com/evolvan), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
+Follow Evolvan: [Twitter](https://twitter.com/evolvan), [Facebook](https://www.facebook.com/evolvan/), [Linkedin](https://in.linkedin.com/company/evolvan), [GitHub](https://github.com/evolvan)
 
 [© Evolvan 2022](http://evolvan.com/)
 
