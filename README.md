@@ -1,10 +1,10 @@
-# Gradient Topography Animation
+# Topography Animation
 
-Animations on the SVGs with animejs. Inspired by the [Gradient Topography Animation]
+Animations on the SVGs with animejs. Inspired by the [Topography Animation]
 
-[Gradient Topography Animation]()
+[Topography Animation]()
 
-[Article on Github]()
+[Article on Github](https://github.com/evolvan/typography-animation/blob/master/README.md)
 
 [Demo](http://evolvan.com/tools/)
 
