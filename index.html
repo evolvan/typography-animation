@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Evolvan tools</title>
+	<meta name="description" content="SVG shape animation based on a work called Gradient Topography and AnimeJs" />
+	<meta name="keywords" content="evolvan, svg, animation, organic, shape, animejs, web design, web development, demo, github" />
+	<meta name="author" content="Evolvan" />
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400:700:900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/hover-min.css" />
+	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
+</head>
+
+<body class="demo-1">
+	<svg class="hidden">
+		<symbol id="icon-arrowback" viewBox="0 0 24 18">
+			<title>arrow-back</title>
+			<path
+				d="M7.839 17.296a.847.847 0 0 0 1.21 0 .853.853 0 0 0 0-1.198L2.914 9.965h20.238A.843.843 0 0 0 24 9.118a.852.852 0 0 0-.847-.86H2.915l6.133-6.12a.868.868 0 0 0 0-1.21.847.847 0 0 0-1.21 0L.255 8.513a.833.833 0 0 0 0 1.197l7.585 7.586z">
+			</path>
+		</symbol>
+	</svg>
+
+	<a href="http://evolvan.com/" class="evolvan-logo menu " style="pointer-events: auto;">
+		<img src="images/evolvan-outline-white.svg" width="60" alt="Evolvan">
+	</a>
+
+	<main>
+		<div class="content content--fixed"></div>
+
+		<div class="content">
+			<button class="content__close go-prev-code-beautifier desktop" style="display: none;">
+				<svg class="icon icon--arrowback">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+				</svg>
+			</button>
+
+			<button class="content__close go-prev-unicode-fonts desktop" style="display: none;">
+				<svg class="icon icon--arrowback">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+				</svg>
+			</button>
+
+			<button class="content__close go-prev-http-tools desktop" style="display: none;">
+				<svg class="icon icon--arrowback">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+				</svg>
+			</button>
+
+			<button class="content__close go-prev-image-processing desktop" style="display: none;">
+				<svg class="icon icon--arrowback">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+				</svg>
+			</button>
+
+
+			<nav class="menu main__menu">
+				<a href="javascript:void(0)" class="menu__item code_beautfiers_href"> Red </a>
+				<a href="javascript:void(0)" class="menu__item unicode_href"> BlueCyan </a>
+				<a href="javascript:void(0)" class="menu__item http_tool_href"> OrangeYellow </a>
+				<a href="javascript:void(0)" class="menu__item image_processing_href"> Purple </a>
+			</nav>
+
+			<nav class="menu code_beautfiers_menu" style="display: none;">
+
+				<button class="content__close go-prev-code-beautifier " style="display: none;">
+					<svg class="icon icon--arrowback">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+					</svg>
+				</button>
+
+				<a href="#" class="inner-pages-menu-text hvr-forward"> 
+					Ruby
+				</a>
+				<a href="#" class="inner-pages-menu-text hvr-forward">
+					Chreey
+				</a>
+				<a href="#" class="inner-pages-menu-text hvr-forward">
+					Sunset  
+				</a>
+				<a href="#" class="inner-pages-menu-text hvr-forward">
+					Lobster
+				</a>
+				<a href="#" class="inner-pages-menu-text hvr-forward">
+					Cock’s Comb
+				</a>
+			</nav>
+
+			<nav class="menu unicode_fonts_menu" style="display: none;">
+				<button class="content__close go-prev-unicode-fonts" style="display: none;">
+					<svg class="icon icon--arrowback">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+					</svg>
+				</button>
+				<a href="#" class="inner-pages-menu-text hvr-underline-from-left"> Ocean</a>
+				<a href="#" class="inner-pages-menu-text hvr-underline-from-left"> Sky</a>
+				<a href="#" class="inner-pages-menu-text hvr-underline-from-left"> Eyes </a>
+				<a href="#" class="inner-pages-menu-text hvr-underline-from-left"> Sapphire </a>
+				<a href="#" class="inner-pages-menu-text hvr-underline-from-left"> Turquoise </a>
+			</nav>
+
+			<nav class="menu http_tools_menu" style="display: none;">
+				<button class="content__close go-prev-http-tools" style="display: none;">
+					<svg class="icon icon--arrowback">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+					</svg>
+				</button>
+				<a href="#" class="inner-pages-menu-text hvr-float-shadow"> Sun</a>
+				<a href="#" class="inner-pages-menu-text hvr-float-shadow"> Wild daffodils</a>
+				<a href="#" class="inner-pages-menu-text hvr-float-shadow"> Banana </a>
+				<a href="#" class="inner-pages-menu-text hvr-float-shadow"> Sunstone </a>
+				<a href="#" class="inner-pages-menu-text hvr-float-shadow"> Yellow aphids </a>
+			</nav>
+
+			<nav class="menu image_processing_menu" style="display: none;">
+				<button class="content__close go-prev-image-processing" style="display: none;">
+					<svg class="icon icon--arrowback">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+					</svg>
+				</button>
+				<a href="#" class="inner-pages-menu-text hvr-bounce-in"> Onion</a>
+				<a href="#" class="inner-pages-menu-text hvr-bounce-in"> Eggplant</a>
+				<a href="#" class="inner-pages-menu-text hvr-bounce-in"> Lavender</a>
+				<a href="#" class="inner-pages-menu-text hvr-bounce-in"> Sweet Potato</a>
+				<a href="#" class="inner-pages-menu-text hvr-bounce-in"> Blueberries</a>
+			</nav>
+
+
+
+			<svg class="scene" width="1440" height="800" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1440 800"
+				xmlns:pathdata="http://www.codrops.com/">
+
+				<g class="blob-1 code_beautifier_svg">
+					<circle style="fill:#F33052;" cx="20" cy="140" r="250"></circle>
+					<g>
+						<rect x="0" y="80" style="fill:#FFFFFF;" width="150" height="16"></rect>
+						<rect x="60" y="140" style="fill:#FFFFFF;" width="150" height="16"></rect>
+						<rect x="0" y="200" style="fill:#FFFFFF;" width="150" height="16"></rect>
+						<rect x="60" y="260" style="fill:#FFFFFF;" width="150" height="16"></rect>
+						<rect x="0" y="320" style="fill:#FFFFFF;" width="114" height="16"></rect>
+					</g>
+				</g>
+
+				<g class="blob-2 unicode_font_svg">
+					<svg version="1.1" id="unicode_svg_for_mobile" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" x="-150px" y="0px" viewBox="0 0 512 512"
+						style="enable-background:new 0 0 512 512; display: none;" xml:space="preserve">
+						<polygon style="fill:#00C3FF;"
+							points="153.386,149.111 84.977,217.52 256,422.747 256,149.111 " />
+						<g>
+							<polygon style="fill:#00AAF0;" points="153.386,149.111 84.977,217.52 179.04,217.52 	" />
+							<polygon style="fill:#00AAF0;" points="179.04,217.52 256,422.747 256,217.52 	" />
+						</g>
+						<polygon style="fill:#80E1FF;" points="179.04,217.52 256,149.111 256,217.52 " />
+					</svg>
+
+					<svg version="1.1" id="unicode_svg_for_desktop" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+						style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						<polygon style="fill:#00C3FF;"
+							points="153.386,149.111 84.977,217.52 256,422.747 256,149.111 " />
+						<g>
+							<polygon style="fill:#00AAF0;" points="153.386,149.111 84.977,217.52 179.04,217.52 	" />
+							<polygon style="fill:#00AAF0;" points="179.04,217.52 256,422.747 256,217.52 	" />
+						</g>
+						<polygon style="fill:#80E1FF;" points="179.04,217.52 256,149.111 256,217.52 " />
+					</svg>
+
+				</g>
+
+				<g class="blob-3 http_tool_svg">
+					<svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" x="626px" y="139" viewBox="0 0 600 1000"
+						style="enable-background:new 0 0 512.282 512.282;" xml:space="preserve">
+						<rect x="323.345" y="411.249"
+							transform="matrix(-0.7073 -0.7069 0.7069 -0.7073 427.6503 1031.5646)" width="208.078"
+							height="32" style="fill: #f5842b;" />
+						<ellipse style="fill:#F2B851;" cx="213.712" cy="213.738" rx="213.712" ry="213.568" />
+						<ellipse style="fill: #e1a232;" cx="213.712" cy="213.738" rx="170.712" ry="170.568"></ellipse>
+						<g>
+							<path style="fill:#FFFFFF;" d="M63.632,178.755h14.264v33.312h0.224c1.728-2.64,4.024-4.832,7.016-6.44
+		c2.76-1.608,6.096-2.52,9.656-2.52c9.544,0,19.544,6.32,19.544,24.232v32.968h-14.144v-31.36c0-8.16-2.992-14.24-10.816-14.24
+		c-5.512,0-9.424,3.672-10.92,7.92c-0.464,1.152-0.568,2.648-0.568,4.248v33.432H63.632V178.755z" />
+							<path style="fill:#FFFFFF;" d="M145.056,188.402v15.968h13.456v10.56h-13.456v24.696c0,6.784,1.832,10.344,7.24,10.344
+		c2.416,0,4.256-0.344,5.52-0.696l0.224,10.808c-2.072,0.808-5.752,1.376-10.232,1.376c-5.168,0-9.544-1.728-12.184-4.592
+		c-2.992-3.216-4.368-8.272-4.368-15.624v-26.304h-8.048v-10.56h8.056v-12.64L145.056,188.402z" />
+							<path style="fill:#FFFFFF;" d="M185.416,188.402v15.968h13.456v10.56h-13.456v24.696c0,6.784,1.832,10.344,7.24,10.344
+		c2.416,0,4.256-0.344,5.52-0.696l0.224,10.808c-2.072,0.808-5.752,1.376-10.232,1.376c-5.168,0-9.544-1.728-12.184-4.592
+		c-2.992-3.216-4.368-8.272-4.368-15.624v-26.304h-8.056v-10.56h8.056v-12.64L185.416,188.402z" />
+							<path style="fill:#FFFFFF;" d="M209.56,222.979c0-7.352-0.224-13.32-0.456-18.6h12.416l0.688,8.608h0.232
+		c4.144-6.312,10.696-9.872,19.2-9.872c12.872,0,23.568,11.024,23.568,28.488c0,20.216-12.76,29.984-25.52,29.984
+		c-7.016,0-12.88-2.992-15.76-7.472h-0.224v28.944h-14.152v-60.08H209.56z M223.704,236.883c0,1.376,0.12,2.64,0.464,3.896
+		c1.376,5.752,6.44,9.88,12.416,9.88c8.968,0,14.256-7.472,14.256-18.496c0-9.88-4.832-17.92-13.912-17.92
+		c-5.856,0-11.264,4.248-12.648,10.456c-0.344,1.152-0.568,2.416-0.568,3.56v8.624H223.704z" />
+							<path style="fill:#FFFFFF;" d="M275.104,213.906c0-5.28,3.68-9.08,8.736-9.08c5.176,0,8.624,3.8,8.744,9.08
+		c0,5.168-3.456,8.96-8.744,8.96C278.664,222.867,275.104,219.075,275.104,213.906z M275.104,252.618c0-5.28,3.68-9.08,8.736-9.08
+		c5.176,0,8.624,3.68,8.744,9.08c0,5.056-3.456,8.96-8.744,8.96C278.664,261.578,275.104,257.674,275.104,252.618z" />
+							<path style="fill:#FFFFFF;"
+								d="M297.288,264.906l28.056-83.28h9.888l-28.056,83.28H297.288z" />
+							<path style="fill:#FFFFFF;" d="M336.04,264.906l28.056-83.28h9.888l-28.056,83.28H336.04z" />
+						</g>
+					</svg>
+				</g>
+
+				<g class="blob-4 immage_processing_svg">
+					<polygon style="fill: #3d2b7e;" points="80,740 184,640 290,740" />
+					<polygon style="fill: #21206c;" points="152,740 298,600 444,753" cx="500" py="700"></polygon>
+					<circle style="fill: #21205a;" cx="212.552" cy="566.44" r="35.784" />
+				</g>
+			</svg>
+		</div>
+
+		<div class="content content--reveal">
+			<div class="content__inner">
+				<h2 class="content__title"></h2>
+				<h3 class="content__subtitle"></h3>
+			</div>
+
+			<button class="content__close"><svg class="icon icon--arrowback">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrowback"></use>
+				</svg></button>
+		</div>
+
+
+	</main>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="js/charming.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
