@@ -166,7 +166,7 @@ $(document).ready(function () {
             translateX: 0,
             easing: 'linear',
             opacity: 0,
-            duration: 1800,
+            duration: 1100,
             complete: () => {
                 anime({
                     targets: '.code_beautifier_svg',
@@ -192,6 +192,7 @@ $(document).ready(function () {
         showImageProcessing();
 
     });
+
 
 
     $('.unicode_href').click(function () {
@@ -255,7 +256,7 @@ $(document).ready(function () {
             translateY: 0,
             translateX: 0,
             easing: 'linear',
-            duration: 1800,
+            duration: 1300,
             opacity: 0,
             complete: () => {
                 anime({
@@ -381,7 +382,7 @@ $(document).ready(function () {
             },
             easing: 'linear',
             // elasticity: 5,
-            duration: 1800,
+            duration: 1300,
             // delay: 400
             complete: () => {
                 anime({
@@ -492,7 +493,7 @@ $(document).ready(function () {
                 value: 0
             },
             easing: 'linear',
-            duration: 1800,
+            duration: 1300,
             complete: () => {
                 anime({
                     targets: '.immage_processing_svg',
@@ -644,13 +645,15 @@ function showMainMenu() {
 
     anime({
         targets: DOM.links.map((link) => link.querySelectorAll('span')),
-        delay: (t, i) => anime.random(0, 300),
+        delay: (t, i) => anime.random(0, 1850),
         duration: 200,
         easing: 'easeInOutQuad',
         opacity: 1,
         begin: () => DOM.links.forEach(link => {
-            link.style.pointerEvents = 'all';
             link.classList.add('menu__item--showDeco');
+        }),
+        complete: () => DOM.links.forEach(link => {
+            link.style.pointerEvents = 'all';
         })
     });
 }
@@ -731,7 +734,4 @@ function showImageProcessing() {
         opacity: 1
     });
 }
-
-
-
 
